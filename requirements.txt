@@ -7,6 +7,7 @@ nltk
 bs4
 wordcloud
 xgboost
+warnings
 #-e .
 
 
