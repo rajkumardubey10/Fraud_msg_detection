@@ -1,0 +1,15 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+bs4
+wordcloud
+xgboost
+#-e .
+
+
+
+
+
