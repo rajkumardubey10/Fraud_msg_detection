@@ -96,4 +96,14 @@ streamlit run app.py
 Open a web browser and navigate to http://localhost:8501 to access the application.
 Paste the text message and click on the "predict" button to receive the output that whether the given input text message is fraudulent or genuine message 
 
+# Tools and Technology :
+![Scikit-learn Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/75px-Scikit_learn_logo_small.svg.png)
+![Python Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/65px-Python-logo-notext.svg.png)
+![Numpy Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/75px-NumPy_logo_2020.svg.png)
+![Pandas Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/75px-Pandas_logo.svg.png)
+
+![VSCode Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/65px-Visual_Studio_Code_1.35_icon.svg.png)
+![Matplotlib Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/75px-Matplotlib_icon.svg.png)
+![Git Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/75px-Git-logo.svg.png)
+![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/75px-Octicons-mark-github.svg.png)
 
