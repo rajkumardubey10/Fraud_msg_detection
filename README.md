@@ -22,7 +22,7 @@ With the increasing prevalence of fraudulent messages, there is a critical need 
 conda create -p venv python==3.11.4 -y
 ```
 # Demo : 
-Videos has to upload yet
+Videos of demo
 
 # Objective:
 
