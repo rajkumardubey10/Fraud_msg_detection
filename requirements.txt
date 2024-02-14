@@ -8,6 +8,10 @@ bs4
 wordcloud
 xgboost
 warnings
+pickle
+re
+string
+streamlit
 #-e .
 
 
