@@ -1,4 +1,4 @@
-FROM python:3.8-silm-buster
+FROM python:3.11.0-silm-buster
 
 EXPOSE 8501
 
