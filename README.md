@@ -22,7 +22,8 @@ With the increasing prevalence of fraudulent messages, there is a critical need 
 conda create -p venv python==3.11.4 -y
 ```
 # Demo : 
-Videos of demo
+
+https://github.com/rajkumardubey10/Fraud_msg_detection/assets/144990687/3e93fc60-a3f1-4956-a598-1721dbaf2b68
 
 # Objective:
 
