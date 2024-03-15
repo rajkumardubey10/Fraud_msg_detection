@@ -17,6 +17,9 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pip install nltk
+
+RUN python -m nltk.downloader download stopwords
 
 # Install Python dependencies
 RUN pip install -r requirements.txt
