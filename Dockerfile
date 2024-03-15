@@ -1,4 +1,4 @@
-FROM python:3.10-slim-buster
+FROM python:3.10-slim
 
 # Expose the port for Streamlit
 EXPOSE 8501
@@ -19,7 +19,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up NLTK data directory and download necessary resources
-COPY nltk.txt /usr/share/nltk_data/
+RUN mkdir -p /usr/share/nltk_data
+COPY nltk.txt /usr/share/nltk_data/nltk.txt
 RUN python3 -m nltk.downloader -d /usr/share/nltk_data -r /usr/share/nltk_data/nltk.txt
 
 # Install Python dependencies
