@@ -9,7 +9,10 @@ RUN pip install --upgrade pip
 RUN apt-get update && apt-get install -y \
     build-essential \
     git \
+    python3-nltk \
     && rm -rf /var/lib/apt/lists/*
+
+RUN python3 -m nltk.downloader stopwords 
 
 # Set the working directory
 WORKDIR /app
