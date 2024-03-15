@@ -15,13 +15,8 @@ RUN pip install --upgrade pip
 RUN apt-get update && apt-get install -y \
     build-essential \
     git \
-    python3-nltk \
     && rm -rf /var/lib/apt/lists/*
 
-# Set up NLTK data directory and download necessary resources
-RUN mkdir -p /usr/share/nltk_data
-COPY nltk.txt /usr/share/nltk_data/nltk.txt
-RUN python3 -m nltk.downloader -d /usr/share/nltk_data -r /usr/share/nltk_data/nltk.txt
 
 # Install Python dependencies
 RUN pip install -r requirements.txt
