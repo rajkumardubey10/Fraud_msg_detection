@@ -1,10 +1,11 @@
-FROM python:3.8.0-slim-buster
+FROM python:3.8-slim-buster
 
 # Expose the port for Streamlit
 EXPOSE 8501
 
 # Update and install necessary packages
-RUN apt-get update && apt-get install -y \
+RUN pip install --upgrade pip
+    apt-get update && apt-get install -y \
     build-essential \
     git \
     && rm -rf /var/lib/apt/lists/*
