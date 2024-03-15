@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     python3-nltk \
     && rm -rf /var/lib/apt/lists/*
 
-RUN python3 -m nltk.downloader stopwords 
+RUN python3 -m nltk.downloader -d /usr/share/nltk_data stopwords 
 
 # Set the working directory
 WORKDIR /app
