@@ -7,8 +7,8 @@ nltk
 bs4
 wordcloud
 xgboost
-warnings
-pickle
+Warnings
+Pickle
 re
 string
 streamlit
