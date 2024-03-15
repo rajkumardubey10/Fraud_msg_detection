@@ -5,7 +5,8 @@ EXPOSE 8501
 
 # Update and install necessary packages
 RUN pip install --upgrade pip
-    apt-get update && apt-get install -y \
+
+RUN apt-get update && apt-get install -y \
     build-essential \
     git \
     && rm -rf /var/lib/apt/lists/*
