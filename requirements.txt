@@ -7,9 +7,6 @@ nltk
 bs4
 wordcloud
 xgboost
-pickle
-re
-string
 streamlit
 #-e .
 
