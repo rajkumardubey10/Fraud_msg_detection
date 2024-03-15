@@ -8,6 +8,7 @@ bs4
 wordcloud
 xgboost
 streamlit
+stopwords
 #-e .
 
 
